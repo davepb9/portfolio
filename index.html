@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><head>
+  <title>David P.Brisson - Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/w3.css">
+  <link rel="stylesheet" href="styles/fontGoogleapis.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/mystyles.css">
+
+	<style>
+  body,h1 {font-family: "Raleway", sans-serif}
+  body, html {height: 100%}
+
+  a:link {
+      text-decoration: none;
+  }
+	img[usemap] {
+		border: none;
+		height: auto;
+    min-height: 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+  .w3-bar .w3-button {
+      padding: 16px;
+  }
+
+  #preload-01 { background: "images/1.png" no-repeat -9999px -9999px; }
+  #preload-02 { background: "images/2.png" no-repeat -9999px -9999px; }
+  #preload-03 { background: "images/3.png" no-repeat -9999px -9999px; }
+
+	</style>
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" style="opacity:0.7" id="myNavbar">
+
+      <!-- Button Left -->
+      <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-button w3-white">DAVID P. BRISSON - Composer & Multi-instrumentalist</button>
+      </div>
+
+      <!-- Right-sided navbar links -->
+      <div class="w3-right">
+        <a href="musicimage.html" class="w3-bar-item w3-button">MUSIC & IMAGE</a>
+        <a href="bands.html" class="w3-bar-item w3-button">BANDS</a>
+        <a href="prof.html" class="w3-bar-item w3-button">PROF</a>
+      </div>
+    </div>
+  </div>
+
+
+<div id="pic">
+ <img id="hovered" src="images/studio_background_black.png" usemap="#studio_background" alt="Home Studio" class="w3-grayscale-max">
+	<map name="studio_background">
+    <!-- Screen Left - MUSIC & IMAGE-->
+    <area onmouseover="swapPic(this,1)" shape="poly" coords="231,229,233,100,339,86,443,83,441,222,338,224" href="musicimage.html" title="Music & Image" alt="Music & Image, Musique à l'image, Videogames, Jeux Vidéos, Cinema, Movie, OST" class="w3-hover-opacity" >
+    <!-- Screen Right - BANDS -->
+    <area onmouseover="swapPic(this,2)" shape="poly" coords="561,88,454,83,455,222,555,229,664,240,661,104" href="bands.html" title="Bands" alt="Bands, Musicians, Groupe de musique">
+          <!-- XXXXX Piano - MUSIC ALÉATOIRE pure data sur Hover À VENIR-->
+        <!--
+        <area <area onmouseover="swapPic(this,XXXXX)" shape="poly" coords="206,453,58,435,53,415,99,384,410,399,401,462,312,460" href="prof.html" title="Prof">
+        -->
+    <!-- Guitar - PROF -->
+    <area onmouseover="swapPic(this,3)" shape="poly" coords="801,608,807,634,801,664,787,692,787,712,612,712,626,677,639,658,639,637,635,611,626,586,623,561,627,547,633,535,638,527,650,535,665,556,675,567,689,569,695,313,689,295,684,281,709,205,723,200,738,200,749,206,754,220,749,232,740,238,749,290,731,299,725,314,728,599,753,602,782,598" href="prof.html" title="Prof">
+          <!-- XXXXX Head - ABOUT ME-->
+        <!--
+        <area onmouseover="swapPic(this,4)" shape="poly" coords="429,635,434,674,433,712,294,711,289,664,295,633,310,606,334,588,359,582,383,586,408,597,423,614"
+        href="XXXXXaboutme.html" title="About me">
+        -->
+   </map>
+</div>
+
+
+
+<!-- Javascript : Resize areas - Hover img-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.rwdImageMaps.min.js"></script>
+<script>$(document).ready(function(e) { $('img[usemap]').rwdImageMaps();});</script>
+<script type="text/javascript">
+function swapPic(zone,nr)
+{
+  var pic=document.getElementById('hovered')
+  pic.src='images/'+nr+'.png'
+  zone.onmouseout=function(){pic.src='images/studio_background_black.png'}
+}
+</script>
+
+
+<!-- FOOTER -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section">
+    <a href="mailto:davepb9@hotmail.com" class="fa fa-envelope w3-hover-opacity"></a>
+    <a href="https://www.facebook.com/davidpbrisson" class="fa fa-facebook-official w3-hover-opacity"></a>
+    <a href="https://www.instagram.com/davidpbris/" class="fa fa-instagram w3-hover-opacity"></a>
+    <a href="https://www.linkedin.com/in/david-brisson-66000551/" class="fa fa-linkedin w3-hover-opacity"></a>
+  </div>
+
+</footer>
+
+</body>
+</html>
