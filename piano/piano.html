@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>David P.Brisson - Piano Keybord</title>
+  <meta name="description" content="Piano Keyboard David P.Brisson">
+  <meta name="keywords" content="MIDI, Keyboard, Piano, David, Brisson, Compositeur, Multi-Instrumentiste, Bands, Musique & Image, Professeur, Prof, Musique de Film, Jeux Vidéos">
+  <meta name="author" content="David Brisson">
+
+  <link href="piano.css" rel="stylesheet" type="text/css">
+  <link href="w3.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="black">
+  <div class="w3-center" id="loading"></div>
+  <div id="contenedor" style="display: none;">
+    <ul id="piano">
+      <li><div class="anchor tecla" id="p1" midi="1" nota="C2"></div><div class="nota">C</div></li>
+      <li><div class="anchor tecla" id="p3" midi="3" nota="D2"></div><span class="tecla" id="p2" midi="2" nota="Db2"></span><div class="nota">D</div></li>
+      <li><div class="anchor tecla" id="p5" midi="5" nota="E2"></div><span class="tecla" id="p4" midi="4" nota="Eb2"></span><div class="nota">E</div></li>
+      <li><div class="anchor tecla" id="p6" midi="6" nota="F2"></div><div class="nota">F</div></li>
+      <li><div class="anchor tecla" id="p8" midi="8" nota="G2"></div><span class="tecla" id="p7" midi="7" nota="Gb2"></span><div class="nota">G</div></li>
+      <li><div class="anchor tecla" id="p10" midi="10" nota="A2"></div><span class="tecla" id="p9" midi="9" nota="Ab2"></span><div class="nota">A</div></li>
+      <li><div class="anchor tecla" id="p12" midi="12" nota="B2"></div><span class="tecla" id="p11" midi="11" nota="Bb2"></span><div class="nota">B</div></li>
+      <li><div class="anchor tecla" id="p13" midi="13" nota="C3"></div><div class="nota">C</div></li>
+      <li><div class="anchor tecla" id="p15" midi="15" nota="D3"></div><span class="tecla" id="p14" midi="14" nota="Db3"></span><div class="nota">D</div></li>
+      <li><div class="anchor tecla" id="p17" midi="17" nota="E3"></div><span class="tecla" id="p16" midi="16" nota="Eb3"></span><div class="nota">E</div></li>
+      <li><div class="anchor tecla" id="p18" midi="18" nota="F3"></div><div class="nota">F</div></li>
+      <li><div class="anchor tecla" id="p20" midi="20" nota="G3"></div><span class="tecla" id="p19" midi="19" nota="Gb3"></span><div class="nota">G</div></li>
+      <li><div class="anchor tecla" id="p22" midi="22" nota="A3"></div><span class="tecla" id="p21" midi="21" nota="Ab3"></span><div class="nota">A</div></li>
+      <li><div class="anchor tecla" id="p24" midi="24" nota="B3"></div><span class="tecla" id="p23" midi="23" nota="Bb3"></span><div class="nota">B</div></li>
+      <li><div class="anchor tecla" id="p25" midi="25" nota="C4"></div><div class="nota">C</div></li>
+      <li><div class="anchor tecla" id="p27" midi="27" nota="D4"></div><span class="tecla" id="p26" midi="26" nota="Db4"></span><div class="nota">D</div></li>
+      <li><div class="anchor tecla" id="p29" midi="29" nota="E4"></div><span class="tecla" id="p28" midi="28" nota="Eb4"></span><div class="nota">E</div></li>
+      <li><div class="anchor tecla" id="p30" midi="30" nota="F4"></div><div class="nota">F</div></li>
+      <li><div class="anchor tecla" id="p32" midi="32" nota="G4"></div><span class="tecla" id="p31" midi="31" nota="Gb4"></span><div class="nota">G</div></li>
+      <li><div class="anchor tecla" id="p34" midi="34" nota="A4"></div><span class="tecla" id="p33" midi="33" nota="Ab4"></span><div class="nota">A</div></li>
+      <li><div class="anchor tecla" id="p36" midi="36" nota="B4"></div><span class="tecla" id="p35" midi="35" nota="Bb4"></span><div class="nota">B</div></li>
+      <li><div class="anchor tecla" id="p37" midi="37" nota="C5"></div><div class="nota">C</div></li>
+      <li><div class="anchor tecla" id="p39" midi="39" nota="D5"></div><span class="tecla" id="p38" midi="38" nota="Db5"></span><div class="nota">D</div></li>
+      <li><div class="anchor tecla" id="p41" midi="41" nota="E5"></div><span class="tecla" id="p40" midi="40" nota="Eb5"></span><div class="nota">E</div></li>
+    </ul>
+    <div class="w3-black w3-card w3-padding" style="max-width: 240px;margin:0 auto;">
+      <div>
+        <label class="w3-large"><input class="w3-check" type="checkbox" id="mouseaction" value="1" > <b>Play on hover</b></label>
+      </div>
+      <div>
+        <label class="w3-large"><b>Sustain: <span id="sustainVal">0.25</span> s</b>
+          <div class="slidecontainer"><input type="range" id="sustain" min="0" max="10000" step="10" class="slider" value="250"></div>
+        </label>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript -->
+  <script src="howler.core.js"></script>
+  <script type="text/javascript" src="piano.js"></script>
+</body>
+</html>
