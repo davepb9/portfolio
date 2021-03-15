@@ -4,7 +4,7 @@ Bienvenue dans mon studio
 -Il se divise en 4 parties :
 
 -Musique & Image (Musique à l'image, Jeux videos, Orchestral, Sound Design, UI, Narration, Wwise, Publicité),
--Bands (The Brihgt Road, Neurone, Coco Country Band, Briche et Projet Solo)
+-Bands (The Bright Road, Neurone, Coco Country Band, Briche et mon projet solo)
 -Prof (Infos pour l'enseignement et audio démo)
 -Contact
 
