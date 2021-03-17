@@ -27,6 +27,24 @@
       background-image: url("images/studio_background.png");
       min-height: 100%;
   }
+.david {
+  position: relative;
+  width: 100%;
+}
+
+hdav {
+   font-family: "Raleway Bold", sans-serif;
+   font-size: 1.6vw;
+   position: absolute;
+   top: 38%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: auto;
+   background-color: #FFFFFF;
+   opacity:0.5;
+   padding-left: 2vw;
+   padding-right: 2vw;
+}
 
   /* Bands background */
   .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
@@ -39,34 +57,40 @@
       background-position: center;
       background-size: cover;
       background-image: url("images/IMG_9056.jpg");
+      min-height: 100%;
   }
 
   .bgimg-3 {
       background-position: center;
       background-size: cover;
       background-image: url("images/neurone.jpg");
+      min-height: 100%;
   }
 
   .bgimg-4 {
       background-position: center;
       background-size: cover;
       background-image: url("images/COCO596.JPG");
+      min-height: 100%;
   }
   .bgimg-5 {
       background-position: center;
       background-size: cover;
       background-image: url("images/briche.jpg");
+      min-height: 100%;
   }
   .bgimg-6 {
       background-position: center;
       background-size: cover;
       background-image: url("images/solo.jpg");
+      min-height: 100%;
   }
   /* Bands / Prof background */
   .bgimg-7 {
       background-position: center;
       background-size: cover;
       background-image: url("images/IMG_1918.jpg");
+      min-height: 100%;
   }
 
   .w3-bar .w3-button {
@@ -124,7 +148,6 @@
   <!-- Navbar (sit on top) -->
   <div class="w3-top" style="line-height:2">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
-
 
       <!-- Button Left -->
       <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
@@ -224,8 +247,9 @@
 
 
 <a id="home"></a>
-<div id="pic">
+<div class="david" id="pic">
  <img id="hovered" src="images/studio_background_black.jpg" usemap="#studio_background" alt="Home Studio" class="w3-grayscale-max">
+ <hdav class="w3-wide">David P.Brisson - Portfolio</hdav>
 	<map name="studio_background">
     <!-- Screen Left - MUSIC & IMAGE-->
     <area onmouseover="swapPic(this,1)" shape="poly" coords="231,229,233,100,339,86,443,83,441,222,338,224" href="#music" title="Music & Image" alt="Music & Image, Musique à l'image, Videogames, Jeux Vidéos, Cinema, Movie, OST" class="w3-hover-opacity" >
@@ -413,8 +437,6 @@
           </div>
      </div>
    </div>
-
-</div>
 
 
 
@@ -671,7 +693,7 @@
       </div>
 
           <div class="w3-col w3-half w3-dark-gray w3-grayscale-min w3-hide-small">
-            <h4 class="w3-center" style="font-size:1.3vw;">
+            <h4 class="w3-center" style="font-size:1.4vw;">
                 - Passionné de musique<br>
                 - Professeur d'expérience : Depuis 2002<br>
                 - Diplomé universitaire : BACC en interprétation 2012, UQAM<br>
@@ -681,7 +703,7 @@
           </div>
 
           <div class="w3-col w3-half w3-dark-gray w3-grayscale-min w3-hide-medium w3-hide-large">
-            <h4 class="w3-center" style="font-size:2.5vw;">
+            <h4 class="w3-center" style="font-size:2.6vw;">
                 - Passionné de musique<br>
                 - Professeur d'expérience : Depuis 2002<br>
                 - Diplomé universitaire : BACC en interprétation 2012, UQAM<br>
@@ -786,14 +808,14 @@
   </div>
 
 <div class="w3-col w3-container w3-hide-small" style="width:30%; line-height: 10%">
-  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Musique par Ordinateur & Enreigistrement">
-  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Musique par Ordinateur<p>VST & Enreigistrement</h4></p>
-  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Musique par Ordinateur<p>VST & Enreigistrement</h4></p>
+  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Musique par Ordinateur, VST & Enreigistrement">
+  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Musique par Ordinateur,<p>VST & Enreigistrement</h4></p>
+  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Musique par Ordinateur,<p>VST & Enreigistrement</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" alt="Ordinateur & Enreigistrement">
-  <h4 class="w3-center" style="font-size:1.2vw;">Ordinateur VST<p> & Enreigistrement</h4></p>
+  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" alt="Ordinateur, VST & Enreigistrement">
+  <h4 class="w3-center" style="font-size:1.2vw;">Ordinateur, VST<p> & Enreigistrement</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-small" style="width:30%; line-height: 10%">
@@ -919,8 +941,8 @@ function newWindow() {
 function swapPic(zone,nr)
 {
   var pic=document.getElementById('hovered')
-  pic.src='images/'+nr+'.png'
-  zone.onmouseout=function(){pic.src='images/studio_background_black.png'}
+  pic.src='images/'+nr+'.jpg'
+  zone.onmouseout=function(){pic.src='images/studio_background_black.jpg'}
 }
 
 $(document).ready(function() {
