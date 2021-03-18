@@ -1,0 +1,33 @@
+CACHE MANIFEST
+index.html
+styles/w3.css
+js/jquery.rwdImageMaps.min.js
+js/jquery-3.6.0.min.js
+images/studio_background_black.jpg
+images/1.jpg
+images/2.jpg
+images/3.jpg
+images/4.jpg
+images/COCO596.JPG
+images/IMG_9056.jpg
+IMG_9056.jpg
+IMG_1918.jpg
+solo.jpg
+
+"start_url": "https://davidpbrisson.com"
+
+// Check if a new cache is available on page load.
+window.addEventListener('load', function(e) {
+
+  window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      // Browser downloaded a new app cache.
+      if (confirm('A new version of this site is available. Load it?')) {
+        window.location.reload();
+      }
+    } else {
+      // Manifest didn't changed. Nothing new to server.
+    }
+  }, false);
+
+}, false);
