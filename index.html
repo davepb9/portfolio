@@ -98,50 +98,49 @@ hdav {
 	/* IOS fixed / scroll bug correction */
 	    @supports (-webkit-touch-callout: none) {
 	      /* For mobile phones: */
-				.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+				.bgimg-2, .bgimg-3, .bgimg-6, .bgimg-7 {
 					background-attachment: scroll;
-					background-position: center;
+					background-position: left;
 					background-repeat: no-repeat;
 					background-size: cover;
 	      }
 	    }
+			/* IOS fixed / scroll bug correction */
+			    @supports (-webkit-touch-callout: none) {
+			      /* For mobile phones: */
+						.bgimg-4, .bgimg-5 {
+							background-attachment: scroll;
+							background-position: right;
+							background-repeat: no-repeat;
+							background-size: cover;
+			      }
+			    }
+
 
   .bgimg-2 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/IMG_9056.jpg");
       min-height: 100%;
   }
 
   .bgimg-3 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/neurone.jpg");
       min-height: 100%;
   }
 
   .bgimg-4 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/COCO596.JPG");
       min-height: 100%;
   }
   .bgimg-5 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/briche.jpg");
       min-height: 100%;
   }
   .bgimg-6 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/solo.jpg");
       min-height: 100%;
   }
   /* Bands / Prof background */
   .bgimg-7 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/IMG_1918.jpg");
       min-height: 100%;
   }
