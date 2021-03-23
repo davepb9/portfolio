@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html><head>
-  <title>David P.Brisson - Portfolio</title>
-  <meta charset="UTF-8">
-
-  <meta name="description" content="Portfolio Musical de David P.Brisson">
-  <meta name="keywords" content="David, Brisson, Compositeur, Multi-Instrumentiste, Bands, Musique & Image, Professeur, Prof, Musique de Film, Jeux Vidéos">
-  <meta name="author" content="David Brisson">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/w3.css">
-  <link rel="stylesheet" href="styles/fontGoogleapis.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles/mystyle.css">
+<html lang="fr">
+<head>
+<!-- Mini link IMG et Texte Facebook, etc.
+  <meta property="og:image" content="http://davepb9.github.io/search/logolink.jpg">
+  <meta property="og:image:width" content="400">
+  <meta property="og:image:height" content="220">
+  <meta property="og:description" content="David P.Brisson - Porfolio. Artiste, Musicien, Enseignant. MUSIQUE À L'IMAGE / JEUX VIDEOS / ORCHESTRAL SOUND DESIGN / UI / NARRATION / WWISE / PUBLICITÉ. The Bright Road, Neurone, Coco Country Band, Briche, David Brisson.">
+-->
+  <!-- Nom de la page web -->
+<title>David P.Brisson - Portfolio</title>
+<link rel="shortcut icon" href="tele.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="/teleapple.png">
+<meta charset="UTF-8">
+<meta name="description" content="Portfolio Musical de David P.Brisson">
+<meta name="keywords" content="David, Brisson, Compositeur, Multi-Instrumentiste, Bands, Musique & Image, Professeur, Prof, Musique de Film, Jeux Vidéos">
+<meta name="author" content="David Brisson">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/w3.css">
+<link rel="stylesheet" href="styles/fontGoogleapis.css">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<style>
   body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   body, html {
       height: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			overflow-x: hidden;
       line-height: 4;
 
   }
+
+  h7 {
+  display: block;
+  font-size: 3.2vw;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
   /* Full height header with java */
   .bgimg-1 {
       background-position: center;
@@ -27,6 +48,56 @@
       background-image: url("images/studio_background.png");
       min-height: 100%;
   }
+.david {
+  position: relative;
+  width: 100%;
+}
+
+hdav {
+	 font-weight: bold;
+   font-family: 'Amatic SC', cursive;
+	 line-height: 240%;
+   font-size: 2.6vw;
+   position: absolute;
+   top: 38%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: auto;
+   background-color: #FFFFFF;
+   padding-left: 2vw;
+   padding-right: 2vw;
+   opacity:0.5;
+ }
+ hdav2 {
+	  font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+	  line-height: 240%;
+	  font-size: 3vw;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background-color: #FFFFFF;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    opacity:0.6;
+  }
+  hdav3 {
+		 font-weight: bold;
+     font-family: 'Amatic SC', cursive;
+  	 line-height: 240%;
+     font-size: 4vw;
+     position: absolute;
+     top: 38%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: auto;
+     background-color: #FFFFFF;
+     padding-left: 2vw;
+     padding-right: 2vw;
+     opacity:0.6;
+   }
 
   /* Bands background */
   .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
@@ -35,42 +106,40 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+	/* IOS fixed / scroll bug correction */
+	    @supports (-webkit-touch-callout: none) {
+	      /* For mobile phones: */
+				.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+					background-attachment: scroll;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+	      }
+	    }
+
   .bgimg-2 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/IMG_9056.jpg");
       min-height: 100%;
   }
-
   .bgimg-3 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/neurone.jpg");
       min-height: 100%;
   }
 
   .bgimg-4 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/COCO596.JPG");
       min-height: 100%;
   }
   .bgimg-5 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/briche.jpg");
       min-height: 100%;
   }
   .bgimg-6 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/solo.jpg");
       min-height: 100%;
   }
   /* Bands / Prof background */
   .bgimg-7 {
-      background-position: center;
-      background-size: cover;
       background-image: url("images/IMG_1918.jpg");
       min-height: 100%;
   }
@@ -86,7 +155,6 @@
     background-color: #FFFFFF;
     opacity:0.7;
   }
-
 
   body,h1 {font-family: "Raleway", sans-serif}
   body, html {height: 100%}
@@ -105,10 +173,10 @@
       padding: 16px;
   }
 
-  #preload-01 { background: "images/1.png" no-repeat -9999px -9999px; }
-  #preload-02 { background: "images/2.png" no-repeat -9999px -9999px; }
-  #preload-03 { background: "images/3.png" no-repeat -9999px -9999px; }
-  #preload-04 { background: "images/4.png" no-repeat -9999px -9999px; }
+  #preload-01 { background: "images/1.jpg" no-repeat -9999px -9999px; }
+  #preload-02 { background: "images/2.jpg" no-repeat -9999px -9999px; }
+  #preload-03 { background: "images/3.jpg" no-repeat -9999px -9999px; }
+  #preload-04 { background: "images/4.jpg" no-repeat -9999px -9999px; }
 
 
 	</style>
@@ -131,24 +199,23 @@
   <div class="w3-top" style="line-height:2">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
 
-
       <!-- Button Left -->
       <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
-        <a href="images/CV_DAVID_PBrisson.pdf" class="w3-button w3-white" target="_blank">David P. Brisson - C.V.</a>
+        <a href="images/CV_DAVID_PBrisson.pdf" class="w3-button w3-white" target="_blank" rel="noreferrer">David P. Brisson - C.V.</a>
       </div>
 
       <div class="w3-dropdown-hover w3-hide-small w3-hide-large">
-        <a href="images/CV_DAVID_PBrisson.pdf" class="w3-button w3-white w3-wide" target="_blank">David - C.V.</a>
+        <a href="images/CV_DAVID_PBrisson.pdf" class="w3-button w3-white w3-wide" target="_blank" rel="noreferrer">David - C.V.</a>
       </div>
 
       <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
-        <a href="images/CV_DAVID_PBrisson.pdf" class="w3-button w3-white" target="_blank">David - C.V.</a>
+        <a href="images/CV_DAVID_PBrisson.pdf" class="w3-button w3-white" target="_blank" rel="noreferrer">David - C.V.</a>
       </div>
 
 
       <!-- Right-sided navbar links -->
       <div class="w3-right">
-        <a href="indexEN.html" class="w3-bar-item w3-button w3-light-gray"></i>EN</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-light-gray"></i>FR</a>
       </div>
 
       <div class="w3-right">
@@ -182,7 +249,7 @@
             <a href="#neurone" class="w3-bar-item w3-button">NEURONE</a>
             <a href="#coco" class="w3-bar-item w3-button">COCO COUNTRY BAND</a>
             <a href="#briche" class="w3-bar-item w3-button">BRICHE</a>
-            <a href="#solo" class="w3-bar-item w3-button">Projet Solo</a>
+            <a href="#solo" class="w3-bar-item w3-button">DAVID BRISSON</a>
           </div>
       </div>
     <!-- Menus BANDS NOT WIDE Wide-->
@@ -229,9 +296,12 @@
   </nav>
 
 
-<a id="home"></a>
-<div id="pic">
- <img id="hovered" src="images/studio_background_black.png" usemap="#studio_background" alt="Home Studio" class="w3-grayscale-max">
+<div id="home">
+<div class="david" id="pic">
+ <img id="hovered" src="images/studio_background_black.jpg" usemap="#studio_background" alt="Home Studio" class="w3-grayscale-max">
+ <hdav class="w3-wide w3-hide-small w3-hide-medium">David P.Brisson - Portfolio</hdav>
+ <hdav2 class="w3-wide w3-hide-large w3-hide-small">David P.Brisson - Portfolio</hdav2>
+ <hdav3 class="w3-hide-large w3-hide-medium">David P.Brisson - Portfolio</hdav3>
 	<map name="studio_background">
     <!-- Screen Left - MUSIC & IMAGE-->
     <area onmouseover="swapPic(this,1)" shape="poly" coords="231,229,233,100,339,86,443,83,441,222,338,224" href="#music" title="Music & Image" alt="Music & Image, Musique à l'image, Videogames, Jeux Vidéos, Cinema, Movie, OST" class="w3-hover-opacity" >
@@ -256,7 +326,7 @@
    </div>
 
 </div>
-
+</div>
 
 <!-- XXXXX Head - ABOUT ME-->
 
@@ -267,27 +337,27 @@
 <div class="w3-container w3-black" style="padding:50px 1%" id="music">
   <div class="w3-container w3-light-gray" style="padding:0 16px">
 
-  <h3 class="w3-center w3-hide-small w3-hide-medium">MUSIQUE À L'IMAGE / JEUX VIDEOS / ORCHESTRAL</h3>
-  <h4 class="w3-center w3-hide-small w3-hide-large">MUSIQUE À L'IMAGE / JEUX VIDEOS / ORCHESTRAL</h4>
-  <h6 class="w3-center w3-hide-medium w3-hide-large">MUSIQUE À L'IMAGE / JEUX VIDEOS / ORCHESTRAL</h6>
+  <h3 class="w3-center w3-hide-small w3-hide-medium">MUSIC TO IMAGE / VIDEO GAMES / ORCHESTRAL</h3>
+  <h4 class="w3-center w3-hide-small w3-hide-large">MUSIC TO IMAGE  / VIDEO GAMES / ORCHESTRAL</h4>
+  <h7 class="w3-center w3-hide-medium w3-hide-large">MUSIC TO IMAGE  / VIDEO GAMES / ORCHESTRAL</h7>
 
     <div class="w3-row-padding">
             <div class="w3-third w3-container">
-              <h5 class="w3-center w3-hide-medium w3-hide-small">Ambiance, Sombriété</h5>
-              <h6 class="w3-center w3-hide-large">Ambiance, Sombriété</h6>
-              <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224316738%3Fsecret_token%3Ds-ZJysWeKQtGL&color=%23080808&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+              <h5 class="w3-center w3-hide-medium w3-hide-small">Ambient, Darkish</h5>
+              <h6 class="w3-center w3-hide-large">Ambient, Darkish</h6>
+              <iframe title="Ambient, Darkish" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224316738%3Fsecret_token%3Ds-ZJysWeKQtGL&color=%23080808&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
             </div>
 
             <div class="w3-third w3-container">
-              <h5 class="w3-center w3-hide-medium w3-hide-small">Fantastique, Aventure</h5>
-              <h6 class="w3-center w3-hide-large">Fantastique, Aventure</h6>
-              <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224320092%3Fsecret_token%3Ds-isAnn3Pjr7u&color=%23ebb800&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+              <h5 class="w3-center w3-hide-medium w3-hide-small">Fantastic, Adventure</h5>
+              <h6 class="w3-center w3-hide-large">Fantastic, Adventure</h6>
+              <iframe title="Fantastic, Adventure" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224320092%3Fsecret_token%3Ds-isAnn3Pjr7u&color=%23ebb800&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
           </div>
 
             <div class="w3-third w3-container">
-              <h5 class="w3-center w3-hide-medium w3-hide-small">Épique</h5>
-              <h6 class="w3-center w3-hide-large">Épique</h6>
-              <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224319918%3Fsecret_token%3Ds-Zu7ffCCWtW0&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+              <h5 class="w3-center w3-hide-medium w3-hide-small">Epic</h5>
+              <h6 class="w3-center w3-hide-large">Epic</h6>
+              <iframe title="Epic" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224319918%3Fsecret_token%3Ds-Zu7ffCCWtW0&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
             </div>
 
 
@@ -296,24 +366,24 @@
           </div>
 
           <div class="w3-col w3-hide-small" style="width:33.33%">
-            <h5 class="w3-center w3-hide-medium w3-hide-small">Intense / Électro</h5>
-            <h6 class="w3-center w3-hide-large">Intense / Électro</h6>
-            <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224321022%3Fsecret_token%3Ds-xryUsFjH7OK&color=%23356682&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+            <h5 class="w3-center w3-hide-medium w3-hide-small">Intense, Electro</h5>
+            <h6 class="w3-center w3-hide-large">Intense, Electro</h6>
+            <iframe title="Intense, Electro" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224321022%3Fsecret_token%3Ds-xryUsFjH7OK&color=%23356682&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
          </div>
          <div class="w3-col w3-hide-medium w3-hide-large" style="width:100%">
-           <h4 class="w3-center">Intense / Électro</h4>
-           <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224321022%3Fsecret_token%3Ds-xryUsFjH7OK&color=%23356682&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+           <h4 class="w3-center">Intense, Electro</h4>
+           <iframe title="Intense, Electro" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224321022%3Fsecret_token%3Ds-xryUsFjH7OK&color=%23356682&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
         </div>
 
 
          <div class="w3-col w3-hide-small" style="width:33.33%">
-            <h5 class="w3-center w3-hide-medium w3-hide-small">Autres</h5>
-            <h6 class="w3-center w3-hide-large">Autres</h6>
-            <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224317425%3Fsecret_token%3Ds-cEZ1feWrne4&color=%230a7850&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+            <h5 class="w3-center w3-hide-medium w3-hide-small">Others</h5>
+            <h6 class="w3-center w3-hide-large">Others</h6>
+            <iframe title="Others" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224317425%3Fsecret_token%3Ds-cEZ1feWrne4&color=%230a7850&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
          </div>
          <div class="w3-col w3-hide-medium w3-hide-large" style="width:100%">
-            <h4 class="w3-center">Autres</h4>
-            <iframe width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224317425%3Fsecret_token%3Ds-cEZ1feWrne4&color=%230a7850&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+            <h4 class="w3-center">Others</h4>
+            <iframe title="Others" width="100%" height="345" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224317425%3Fsecret_token%3Ds-cEZ1feWrne4&color=%230a7850&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
          </div>
 
          <div class="w3-col w3-hide-small" style="width:16.66%"><p></p>
@@ -327,9 +397,9 @@
 
 <!-- VIDEOS Section -->
 <div class="w3-container w3-black" style="padding:50px 1%" id="videos">
-  <h3 class="w3-center w3-hide-small w3-hide-medium">SOUND DESIGN / UI / NARRATION / WWISE / PUBLICITÉ</h3>
-  <h4 class="w3-center w3-hide-small w3-hide-large">SOUND DESIGN / UI / NARRATION / WWISE / PUBLICITÉ</h4>
-  <h6 class="w3-center w3-hide-medium w3-hide-large">SOUND DESIGN / UI / NARRATION / WWISE / PUBLICITÉ</h6>
+  <h3 class="w3-center w3-hide-small w3-hide-medium">SOUND DESIGN / UI / NARRATION / WWISE / ADVERTISING</h3>
+  <h4 class="w3-center w3-hide-small w3-hide-large">SOUND DESIGN / UI / NARRATION / WWISE / ADVERTISING</h4>
+  <h7 class="w3-center w3-hide-medium w3-hide-large">SOUND DESIGN / UI / NARRATION / WWISE / ADVERTISING</h7>
 
   <div class="w3-row-padding">
 
@@ -340,21 +410,21 @@
           <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">Narration / Music / SD<p style="font-size:1vw;"><i>Anya et l'encre magique</i></p></h4>
           <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">Narration / Music / SD<p style="font-size:1.4vw;"><i>Anya et l'encre magique</i></p></h5>
           <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">Narration / Music / SD<p style="font-size:2.6vw;"><i>Anya et l'encre magique</i></p></h6>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8TIpJjFx7uw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Anya et l'encre magique" width="100%" height="100%" src="https://www.youtube.com/embed/8TIpJjFx7uw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container" style="line-height: 10%">
           <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">Music / Wwise<p style="font-size:1vw;"><i>Tohunga</i></p></h4>
           <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">Music / Wwise<p style="font-size:1.4vw;"><i>Tohunga</i></p></h5>
           <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">Music / Wwise<p style="font-size:2.6vw;"><i>Tohunga</i></p></h6>
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wBtM0Rf6FRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Tohunga" width="100%" height="100%" src="https://www.youtube.com/embed/wBtM0Rf6FRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container" style="line-height: 10%">
           <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">Music / Wwise<p style="font-size:1vw;"><i>Berlin 1989</i></p></h4>
           <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">Music / Wwise<p style="font-size:1.4vw;"><i>Berlin 1989</i></p></h5>
           <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">Music / Wwise<p style="font-size:2.6vw;"><i>Berlin 1989</i></p></h6>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Igfd58DXoxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Berlin 1989" width="100%" height="100%" src="https://www.youtube.com/embed/Igfd58DXoxY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -369,21 +439,21 @@
         <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">1 Guitar & Auroras<p style="font-size:1vw;"><i>Experimental Improv, Norway</i></p></h4>
         <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">1 Guitar & Auroras<p style="font-size:1.4vw;"><i>Experimental Improv, Norway</i></p></h5>
         <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">1 Guitar & Auroras<p style="font-size:2.6vw;"><i>Experimental Improv, Norway</i></p></h6>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VqB-kQVjBOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="1 Guitar & Auroras" width="100%" height="100%" src="https://www.youtube.com/embed/VqB-kQVjBOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div class="w3-quarter w3-container" style="line-height: 10%">
         <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">SD Dark/Futuristic<p style="font-size:1vw;"><i>Dead Space 2 UI</i></p></h4>
         <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">SD Dark/Futuristic<p style="font-size:1.4vw;"><i>Dead Space 2 UI</i></p></h5>
         <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">SD Dark/Futuristic<p style="font-size:2.6vw;"><i>Dead Space 2 UI</i></p></h6>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nX7keHmI3eM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Dead Space 2 UI" width="100%" height="100%" src="https://www.youtube.com/embed/nX7keHmI3eM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div class="w3-quarter w3-container" style="line-height: 10%">
         <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">SD Scream<p style="font-size:1vw;"><i>feat. D-A Brousseau</i></p></h4>
         <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">SD Scream<p style="font-size:1.4vw;"><i>feat. D-A Brousseau</i></p></h5>
         <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">SD Scream<p style="font-size:2.6vw;"><i>feat. D-A Brousseau</i></p></h6>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iOTJoilB5bs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="SD Scream" width="100%" height="100%" src="https://www.youtube.com/embed/iOTJoilB5bs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
           <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -398,21 +468,21 @@
             <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">Happy Music<p style="font-size:1vw;"><i>Madame Mo (Appligogiques)</i></p></h4>
             <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">Happy Music<p style="font-size:1.4vw;"><i>Madame Mo (Appligogiques)</i></p></h5>
             <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">Happy Music<p style="font-size:2.6vw;"><i>Madame Mo (Appligogiques)</i></p></h6>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-ySJNqsg76M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Madame Mo" width="100%" height="100%" src="https://www.youtube.com/embed/-ySJNqsg76M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="w3-quarter w3-container" style="line-height: 10%">
             <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">Punchy Music (Ad)<p style="font-size:1vw;"><i>Judo Rive-Sud (2015)</i></p></h4>
             <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">Punchy Music (Ad)<p style="font-size:1.4vw;"><i>Judo Rive-Sud (2015)</i></p></h5>
             <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">Punchy Music (Ad)<p style="font-size:2.6vw;"><i>Judo Rive-Sud (2015)</i></p></h6>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YGSqX_iw3j8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Judo Rive-Sud" width="100%" height="100%" src="https://www.youtube.com/embed/YGSqX_iw3j8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="w3-quarter w3-container" style="line-height: 10%">
             <h4 class="w3-center w3-hide-medium w3-hide-small" style="font-size:1.2vw;">Jazzy Jingle (Ad)<p style="font-size:1vw;"><i>Top Secret - TQS (2007)</i></p></h4>
             <h5 class="w3-center w3-hide-large w3-hide-small" style="font-size:1.6vw;">Jazzy Jingle (Ad)<p style="font-size:1.4vw;"><i>Top Secret - TQS (2007)</i></p></h5>
             <h6 class="w3-center w3-hide-large w3-hide-medium" style="font-size:2.8vw;">Jazzy Jingle (Ad)<p style="font-size:2.6vw;"><i>Top Secret - TQS (2007)</i></p></h6>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DIFyLsZgL64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Top Secret" width="100%" height="100%" src="https://www.youtube.com/embed/DIFyLsZgL64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -420,23 +490,21 @@
      </div>
    </div>
 
-</div>
-
 
 
 <!-- TBR Section -->
 <div class="bgimg-2 w3-sepia-min" style="padding:50px" id="brightroad">
 
   <div class="w3-center w3-text-white">
-    <span class="w3-xxlarge w3-hide-small"><a href="https://thebrightroad.ca">THE BRIGHT ROAD</a></span>
-    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://thebrightroad.ca">THE BRIGHT ROAD</a></span>
+    <span class="w3-xxlarge w3-hide-small"><a href="https://thebrightroad.ca" target="_blank" rel="noreferrer">THE BRIGHT ROAD</a></span>
+    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://thebrightroad.ca" target="_blank" rel="noreferrer">THE BRIGHT ROAD</a></span>
 <br>
 <div class="w3-opacity w3-large">
-    <a href="https://www.facebook.com/thebrightroad" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity"></a>
-    <a href="https://www.instagram.com/thebrightroad/" style="text-decoration: none;" class="fa fa-instagram w3-hover-opacity"></a>
-    <a href="https://twitter.com/tbrmusique/" style="text-decoration: none;" class="fa fa-twitter w3-hover-opacity"></a>
-    <a href="https://thebrightroad.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity"></a>
-    <a href="https://www.youtube.com/user/Phil1821/videos" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity"></a>
+    <a href="https://www.facebook.com/thebrightroad" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+    <a href="https://www.instagram.com/thebrightroad/" style="text-decoration: none;" class="fa fa-instagram w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+    <a href="https://twitter.com/tbrmusique/" style="text-decoration: none;" class="fa fa-twitter w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+    <a href="https://thebrightroad.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+    <a href="https://www.youtube.com/user/Phil1821/videos" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -444,13 +512,14 @@
     </div>
 
     <div class="w3-third w3-container w3-opacity">
-      <iframe style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=1437243199/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://thebrightroad.bandcamp.com/album/ocean">Ocean by The Bright Road</a></iframe>
+      <iframe title="The Bright Road - Bandcamp" style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=1437243199/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://thebrightroad.bandcamp.com/album/ocean">Ocean by The Bright Road</a></iframe>
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:0apOukb6VhlrBOxIOWFaXN&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-        <p><a href="https://geo.itunes.apple.com/ca/album/ocean/1112202846?mt=1&app=music&ls=1" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/fr-ca/lockup.svg?releaseDate=2016-05-06&kind=album&bubble=apple_music&style=standard-black) no-repeat;width:190px;height:55px;"></a></p>
-      </div>
+        <iframe title="The Bright Road - Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:0apOukb6VhlrBOxIOWFaXN&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+        <p><a href="https://music.apple.com/us/artist/the-bright-road/342631159?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_the_bright_road&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;">
+					<img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-white/en-us?size=250x83&h=b5f857bc25b758abc34e938702c5edce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 190px; height: 55px;"></a>
+				</div>
 
 
           <div class="w3-col w3-hide-small" style="width:5%"><p></p>
@@ -462,15 +531,15 @@
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe width="100%" height="150" src="https://www.youtube.com/embed/7ASxoelONys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="The Bright Road - What You've Heard" width="100%" height="150" src="https://www.youtube.com/embed/7ASxoelONys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/IpRYilfkskQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="The Bright Road - Question (live)" width="100%" height="150" src="https://www.youtube.com/embed/IpRYilfkskQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/R_7s6HFzWFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="The Bright Road - La mer (feat. Gilles Vigneault)" width="100%" height="150" src="https://www.youtube.com/embed/R_7s6HFzWFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
             <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -485,13 +554,13 @@
 <div class="bgimg-3 w3-grayscale-min" style="padding:50px" id="neurone">
 
   <div class="w3-center w3-text-white">
-    <span class="w3-xxlarge w3-hide-small"><a href="https://www.facebook.com/neuroneband">NEURONE</a></span>
-    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.facebook.com/neuroneband">NEURONE</a></span>
+    <span class="w3-xxlarge w3-hide-small"><a href="https://www.facebook.com/neuroneband" target="_blank" rel="noreferrer">NEURONE</a></span>
+    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.facebook.com/neuroneband" target="_blank" rel="noreferrer">NEURONE</a></span>
 <br>
 <div class="w3-text-black w3-opacity w3-large">
-  <a href="https://www.facebook.com/neuroneband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity"></a>
-  <a href="https://neurone.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity"></a>
-  <a href="https://www.youtube.com/channel/UCbn6N3JIEkk3LM6J0eJj7uw" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity"></a>
+  <a href="https://www.facebook.com/neuroneband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+  <a href="https://neurone.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+  <a href="https://www.youtube.com/channel/UCbn6N3JIEkk3LM6J0eJj7uw" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -499,14 +568,14 @@
     </div>
 
     <div class="w3-third w3-container w3-opacity-min">
-      <iframe style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=1451940514/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://thebrightroad.bandcamp.com/album/ocean">Ocean by The Bright Road</a></iframe>
+      <iframe title="Neurone - Bandcamp" style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=1451940514/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://neurone.bandcamp.com/album/mer-noire">Mer Noire by Neurone</a></iframe>
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:5bF05mm75pLV7pg9R7Se8L&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-        <p><a href="https://geo.itunes.apple.com/ca/album/picasso/492114410?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/fr-ca/lockup.svg?releaseDate=2011-12-29&kind=album&bubble=apple_music&style=standard-black) no-repeat;width:190px;height:55px;"></a></p>
-      </div>
-
+        <iframe title="Neurone - Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:5bF05mm75pLV7pg9R7Se8L&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+        <p><a href="https://music.apple.com/us/artist/neurone/1446958545?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_neurone&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;" target="_blank" rel="noreferrer">
+          <img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-black/en-us?size=250x83&h=f2a92c99a2015112ccd39cfb7300b8ce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 190px; height: 55px;"></a>
+				</div>
   </div>
 
     <div class="w3-row-padding">
@@ -514,15 +583,15 @@
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe width="100%" height="150" src="https://www.youtube.com/embed/O63GD5kejE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Neurone - Ste-Anne-des-plaines" width="100%" height="150" src="https://www.youtube.com/embed/O63GD5kejE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/J2gwsdFi-Mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Neurone - Sortie (live)" width="100%" height="150" src="https://www.youtube.com/embed/J2gwsdFi-Mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/0aF_OV1KYeE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Neurone - Substance Blanche"width="100%" height="150" src="https://www.youtube.com/embed/0aF_OV1KYeE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
             <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -536,12 +605,12 @@
 <div class="bgimg-4 w3-sepia-min" style="padding:50px" id="coco">
 
   <div class="w3-center w3-text-white">
-    <span class="w3-xxlarge w3-hide-small"><a href="https://www.cococountryband.com">COCO COUNTRY BAND</a></span>
-    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.cococountryband.com">COCO COUNTRY BAND</a></span>
+    <span class="w3-xxlarge w3-hide-small"><a href="https://www.cococountryband.com" target="_blank" rel="noreferrer">COCO COUNTRY BAND</a></span>
+    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.cococountryband.com" target="_blank" rel="noreferrer">COCO COUNTRY BAND</a></span>
 <br>
 <div class="w3-opacity w3-large">
-  <a href="https://www.facebook.com/cococountryband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity"></a>
-  <a href="https://www.cococountryband.com" style="text-decoration: none;" class="fa fa-link w3-hover-opacity"></a>
+  <a href="https://www.facebook.com/cococountryband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+  <a href="https://www.cococountryband.com" style="text-decoration: none;" class="fa fa-link w3-hover-opacity" target="_blank" rel="noreferrer"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -549,7 +618,7 @@
     </div>
 
     <div class="w3-third w3-container w3-opacity">
-      <iframe style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=164441025/size=large/bgcol=808080/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://thebrightroad.bandcamp.com/album/ocean">Ocean by The Bright Road</a></iframe>
+      <iframe title="Coco Country Band - Bandcamp" style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=164441025/size=large/bgcol=808080/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://cococountryband.bandcamp.com/album/coco-country-band">Coco Country Band by Coco Country Band</a></iframe>
       </div>
 
       <div class="w3-quarter w3-container">
@@ -562,7 +631,7 @@
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe width="100%" height="150" src="https://www.youtube.com/embed/0_96pAUGu4o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Coco Country Band - Ste-Tite 2017" width="100%" height="150" src="https://www.youtube.com/embed/0_96pAUGu4o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container w3-hide-small">
@@ -570,7 +639,7 @@
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/7kly5GDLDu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Coco Country Band - Live" width="100%" height="150" src="https://www.youtube.com/embed/7kly5GDLDu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
             <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -584,13 +653,13 @@
 <div class="bgimg-5 w3-sepia-min" style="padding:50px" id="briche">
 
   <div class="w3-center w3-text-white">
-    <span class="w3-xxlarge w3-hide-small"><a href="https://www.facebook.com/lesbriches">BRICHE</a></span>
-    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.facebook.com/lesbriches">BRICHE</a></span>
+    <span class="w3-xxlarge w3-hide-small"><a href="https://www.facebook.com/lesbriches" target="_blank" rel="noreferrer">BRICHE</a></span>
+    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.facebook.com/lesbriches" target="_blank" rel="noreferrer">BRICHE</a></span>
 <br>
 <div class="w3-text-black w3-large">
-  <a href="https://www.facebook.com/lesbriches" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity"></a>
-  <a href="https://briche.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity"></a>
-  <a href="https://www.youtube.com/channel/UCMewDP9VHqJDNCJWBaPZ7mA" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity"></a>
+  <a href="https://www.facebook.com/lesbriches" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+  <a href="https://briche.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+  <a href="https://www.youtube.com/channel/UCMewDP9VHqJDNCJWBaPZ7mA" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -598,14 +667,15 @@
     </div>
 
     <div class="w3-third w3-container w3-opacity">
-      <iframe style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=1452581803/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://briche.bandcamp.com/album/50-milles">50 milles by BRICHE</a></iframe>
+      <iframe title="Briche - Bandcamp" style="border: 0; width: 100%; height: 240px;" src="https://bandcamp.com/EmbeddedPlayer/album=1452581803/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://briche.bandcamp.com/album/50-milles">50 milles by BRICHE</a></iframe>
 
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:00UQXDc8fBp65E6dp72cKB&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-        <p><a href="https://geo.itunes.apple.com/ca/album/50-milles-ep/1494549542?mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/fr-ca/lockup.svg?releaseDate=2020-02-28&kind=album&bubble=apple_music&style=standard-black) no-repeat;width:190px;height:55px;"></a></p>
-      </div>
+        <iframe title="Briche - Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:00UQXDc8fBp65E6dp72cKB&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+        <p><a href="https://music.apple.com/us/artist/briche/1494549327?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_briche&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;" target="_blank" rel="noreferrer">
+          <img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-black/en-us?size=250x83&h=f2a92c99a2015112ccd39cfb7300b8ce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 190px; height: 55px;"></a>
+				</div>
 
   </div>
 
@@ -614,15 +684,15 @@
       </div>
 
       <div class="w3-quarter w3-container">
-        <iframe width="100%" height="150" src="https://www.youtube.com/embed/Z638xrn9LhA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Briche - Lac Saint-Jean" width="100%" height="150" src="https://www.youtube.com/embed/Z638xrn9LhA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/oShfV1fG1yM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Briche - Old Orchard" width="100%" height="150" src="https://www.youtube.com/embed/oShfV1fG1yM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="w3-quarter w3-container">
-          <iframe width="100%" height="150" src="https://www.youtube.com/embed/boajuRhOhSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe title="Briche - Les petites bleus" width="100%" height="150" src="https://www.youtube.com/embed/boajuRhOhSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
             <div class="w3-col w3-hide-small" style="width:12.5%"><p></p>
@@ -635,28 +705,32 @@
 
 
 <!-- SOLO Section -->
-<div class="bgimg-6 w3-grayscale-max" style="padding:50px" id="solo">
+<div class="bgimg-6 w3-grayscale" style="padding:50px" id="solo">
 
-  <div class="w3-center w3-text-white">
-    <span class="w3-xxlarge w3-hide-small"><a href="https://davidbrisson.bandcamp.com">DAVID BRISSON</a></span>
-    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://davidbrisson.bandcamp.com">DAVID BRISSON</a></span>
-<br>
-<div class="w3-text-white w3-large w3-opacity">
-  <a href="https://www.facebook.com/davidbrissonmusique" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity"></a>
-  <a href="https://davidbrisson.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity"></a>
+<div class="w3-center w3-text-white">
+    <span class="w3-xxlarge w3-hide-small"><a href="https://davidbrisson.bandcamp.com" target="_blank" rel="noreferrer">DAVID BRISSON</a></span>
+    <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://davidbrisson.bandcamp.com" target="_blank" rel="noreferrer">DAVID BRISSON</a></span>
+    <br>
+  <div class="w3-text-white w3-large w3-opacity">
+  <a href="https://www.facebook.com/davidbrissonmusique" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer"></a>
+  <a href="https://davidbrisson.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer"></a>
   </div>
+
 
   <div class="w3-row-padding">
     <div class="w3-col w3-hide-small" style="width:33%"><p></p>
     </div>
 
     <div class="w3-third w3-container w3-opacity-min">
-      <iframe style="border: 0; width: 280px; height: 430px;" src="https://bandcamp.com/EmbeddedPlayer/album=3440268574/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://davidbrisson.bandcamp.com/album/m-gane-single">Mégane (single) by David Brisson</a></iframe>
-      </div>
+    <iframe title="David Brisson - Bandcamp" style="border: 0; width: 280px; height: 430px;" src="https://bandcamp.com/EmbeddedPlayer/album=3440268574/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://davidbrisson.bandcamp.com/album/m-gane-single">Mégane (single) by David Brisson</a></iframe>
+    </div>
 
       <div class="w3-quarter w3-container">
-<p></p>
-      </div>
+        <iframe title="David Brisson - Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:5cEqcTElK7IEt2J59TxL9j&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+      <p><a href="https://music.apple.com/us/artist/david-brisson/1495566868?itsct=music_box_badge&amp;itscg=30200&amp;ct=artists_david_brisson&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;">
+				<img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/standard-white/en-us?size=250x83&h=b5f857bc25b758abc34e938702c5edce" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 190px; height: 553px;"></a>
+			</div>
+
    </div>
   </div>
 </div>
@@ -677,36 +751,26 @@
       </div>
 
           <div class="w3-col w3-half w3-dark-gray w3-grayscale-min w3-hide-small">
-            <h4 class="w3-center" style="font-size:1.3vw;">
-                - Passionné de musique<br>
-                - Professeur d'expérience : Depuis 2002<br>
-                - Diplomé universitaire : BACC en interprétation 2012, UQAM<br>
-                - Environnement sécuritaire : Petit studio maison<br>
-                - Cours en ligne disponible et flexibilité d'horaire
+            <h4 class="w3-center" style="font-size:1.4vw;">
+                - Music Enthusiast<br>
+                - Experienced Teacher : Since 2002<br>
+                - Univeristy Graduate : Bachelor in interpretation 2012, UQAM<br>
+                - Safe Environnement : Home Studio<br>
+								- Lessons in English or French<br>
+                - Online Lessons & Flexible Schedules
             </h4>
           </div>
 
           <div class="w3-col w3-half w3-dark-gray w3-grayscale-min w3-hide-medium w3-hide-large">
             <h4 class="w3-center" style="font-size:2.5vw;">
-                - Passionné de musique<br>
-                - Professeur d'expérience : Depuis 2002<br>
-                - Diplomé universitaire : BACC en interprétation 2012, UQAM<br>
-                - Environnement sécuritaire : Petit studio maison<br>
-                - Cours en ligne disponible et flexibilité d'horaire
+							- Music Enthusiast<br>
+							- Experienced Teacher : Since 2002<br>
+							- Univeristy Graduate : Bachelor in interpretation 2012, UQAM<br>
+							- Safe Environnement : Home Studio<br>
+							- Lessons in English or French<br>
+							- Online Lessons & Flexible Schedules
             </h4>
           </div>
-
-
-
-      <!-- INFOS Section
-
-           <i>
-              - Music is my passion <br>
-              - Experienced Teacher : Since 2002<br>
-              - Univeristy Graduate : Bachelor in interpretation 2012, UQAM<br>
-              - Safe Environnement : Small Home Studio<br>
-            </i>
-      -->
 
       <div class="w3-col w3-quarter"><p></p>
       </div>
@@ -716,73 +780,73 @@
 
 <!-- LESSON Section -->
 <div class="w3-container w3-white w3-opacity-min" style="padding:50px 1%" id="lesson">
-  <h4 class="w3-center w3-hide-small w3-hide-medium">Il n'est jamais trop tard pour apprendre!</h4>
-  <h5 class="w3-center w3-hide-small w3-hide-large">Il n'est jamais trop tard pour apprendre!</h5>
-  <h6 class="w3-center w3-hide-medium w3-hide-large">Il n'est jamais trop tard pour apprendre!</h6>
+  <h5 class="w3-center w3-hide-small w3-hide-medium"><i>"To teach, is to learn twice."</i> J.Joubert</h5>
+  <h6 class="w3-center w3-hide-small w3-hide-large"><i>"To teach, is to learn twice."</i> J.Joubert</h6>
+  <h7 class="w3-center w3-hide-medium w3-hide-large"><i>"To teach, is to learn twice."</i> J.Joubert</h7>
 
   <div class="w3-row-padding">
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/strat.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitare Électrique">
-          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Guitare <p>Électrique</h4></p>
-          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Guitare <p>Électrique</h4></p>
+          <img src="images/strat.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Electric Guitar">
+          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Electric <p>Guitar</h4></p>
+          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Electric <p>Guitar</h4></p>
         </div>
         <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-          <img src="images/strat.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitare Électrique">
+          <img src="images/strat.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Electric Guitar">
         </div>
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/acoustic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitare Acoustique">
-          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Guitare <p>Acoustique</h4></p>
-          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Guitare <p>Acoustique</h4></p>
+          <img src="images/acoustic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Acoustic Guitar">
+          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Acoustic <p>Guitar</h4></p>
+          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Acoustic <p>Guitar</h4></p>
         </div>
         <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-          <img src="images/acoustic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitare Acoustique">
+          <img src="images/acoustic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Acoustic Guitar">
         </div>
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/classic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitare Classique">
-          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Guitare <p>Classique</h4></p>
-          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Guitare <p>Classique</h4></p>
+          <img src="images/classic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Classical Guitar">
+          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Classical <p>Guitar</h4></p>
+          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Classical <p>Guitar</h4></p>
         </div>
         <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-          <img src="images/classic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitare Classique">
+          <img src="images/classic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Classical Guitar">
         </div>
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/bass.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Basse Électrique">
-          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Basse <p>Électrique</h4></p>
-          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Basse <p>Électrique</h4></p>
+          <img src="images/bass.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Electric Bass">
+          <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Electric <p>Bass</h4></p>
+          <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Electric <p>Bass</h4></p>
         </div>
         <div class="w3-row-padding w3-col w3-container w3-hide-medium w3-hide-large" style="width:25%; line-height: 10%">
-          <img src="images/bass.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Basse Électrique">
+          <img src="images/bass.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Electric Bass">
         </div>
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/banjo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Banjo">
+          <img src="images/banjo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Banjo">
           <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Banjo</h4>
           <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Banjo</h4>
         </div>
         <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:25%; line-height: 10%">
-          <img src="images/banjo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Banjo">
+          <img src="images/banjo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Banjo">
         </div>
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/lapsteel.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lapsteel">
+          <img src="images/lapsteel.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lapsteel">
           <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Lapsteel</h4>
           <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Lapsteel</h4>
         </div>
         <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:25%; line-height: 10%">
-          <img src="images/lapsteel.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lapsteel">
+          <img src="images/lapsteel.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lapsteel">
         </div>
 
         <div class="w3-col w3-container w3-hide-small" style="width:14%; line-height: 10%">
-          <img src="images/ukulele.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ukulele">
+          <img src="images/ukulele.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ukulele">
           <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Ukulele</h4>
           <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Ukulele</h4>
         </div>
         <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:25%; line-height: 10%">
-          <img src="images/ukulele.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ukulele">
+          <img src="images/ukulele.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ukulele">
         </div>
 
   </div>
@@ -792,36 +856,36 @@
   </div>
 
 <div class="w3-col w3-container w3-hide-small" style="width:30%; line-height: 10%">
-  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Musique par Ordinateur & Enreigistrement">
-  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Musique par Ordinateur<p>& Enreigistrement</h4></p>
-  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Musique par Ordinateur<p>& Enreigistrement</h4></p>
+  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Computer Music, VST & Recording">
+  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Computer Music,<p>VST & Recording</h4></p>
+  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Computer Music,<p>VST & Recording</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ordinateur & Enreigistrement">
-  <h4 class="w3-center" style="font-size:1.2vw;">Ordinateur<p>& Enreigistrement</h4></p>
+  <img src="images/computer.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Computer Music, VST & Recording">
+  <h4 class="w3-center" style="font-size:1.2vw;">Computer, VST<p> & Recording</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-small" style="width:30%; line-height: 10%">
-  <img src="images/theory.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Théorie Musicale & Harmonie">
-  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Théorie Musicale<p>& Harmonie</h4></p>
-  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Théorie Musicale<p>& Harmonie</h4></p>
+  <img src="images/theory.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Music Theory & Harmony">
+  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Music Theory<p>& Harmony</h4></p>
+  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Music Theory<p>& Harmony</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-  <img src="images/theory.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Théorie Musicale & Harmonie">
-  <h4 class="w3-center" style="font-size:1.2vw;">Théorie Musicale<p>& Harmonie</h4></p>
+  <img src="images/theory.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Music Theory & Harmony">
+  <h4 class="w3-center" style="font-size:1.2vw;">Music Theory<p>& Harmony</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-small" style="width:30%; line-height: 10%">
-  <img src="images/songwriting.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Composition & Écriture">
-  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Composition<p>& Écriture</h4></p>
-  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Composition<p>& Écriture</h4></p>
+  <img src="images/songwriting.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Composing & Songwriting">
+  <h4 class="w3-center w3-hide-small w3-hide-large" style="font-size:1vw;">Composing<p>& Songwriting</h4></p>
+  <h4 class="w3-center w3-hide-medium" style="font-size:1.2vw;">Composing<p>& Songwriting</h4></p>
 </div>
 
 <div class="w3-col w3-container w3-hide-medium w3-hide-large " style="width:33%; line-height: 10%">
-  <img src="images/songwriting.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Composition & Écriture">
-  <h4 class="w3-center" style="font-size:1.2vw;">Composition<p>& Écriture</h4></p>
+  <img src="images/songwriting.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Composing & Songwriting">
+  <h4 class="w3-center" style="font-size:1.2vw;">Composing<p>& Songwriting</h4></p>
 </div>
 
 
@@ -837,15 +901,15 @@
     </div>
 
       <div class="w3-col w3-hide-small" style="width:60%">
-          <span class="w3-large w3-hide-small">Démo Guitare</a></span>
-          <span class="w3-medium w3-hide-large w3-hide-medium">Démo Guitare</a></span>
-        <iframe width="100%" height="375" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/233785290%3Fsecret_token%3Ds-uXyKq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+          <span class="w3-large w3-hide-small">Demo Guitar</a></span>
+          <span class="w3-medium w3-hide-large w3-hide-medium">Demo Guitar</a></span>
+        <iframe title="Démo Guitare" width="100%" height="375" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/233785290%3Fsecret_token%3Ds-uXyKq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
      </div>
 
      <div class="w3-col w3-hide-medium w3-hide-large" style="width:100%">
-       <span class="w3-large w3-hide-small">Démo Guitare</a></span>
-       <span class="w3-medium w3-hide-large w3-hide-medium">Démo Guitare</a></span>
-       <iframe width="100%" height="375" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/233785290%3Fsecret_token%3Ds-uXyKq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
+       <span class="w3-large w3-hide-small">Demo Guitar</a></span>
+       <span class="w3-medium w3-hide-large w3-hide-medium">Demo Guitar</a></span>
+       <iframe title="Démo Guitare" width="100%" height="375" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/233785290%3Fsecret_token%3Ds-uXyKq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
     </div>
 
      <div class="w3-col w3-hide-small" style="width:20%"><p></p>
@@ -882,13 +946,13 @@
 <div class="w3-container w3-light-grey w3-center" style="padding:50px 1%">
 <h3 class="w3-center w3-hide-small w3-hide-medium">CONTACT</h3>
 <h4 class="w3-center w3-hide-small w3-hide-large">CONTACT</h4>
-<h6 class="w3-center w3-hide-medium w3-hide-large">CONTACT</h6>
+<h5 class="w3-center w3-hide-medium w3-hide-large">CONTACT</h5>
 
   <div class="w3-row-padding">
 
     <div class="w3-col w3-half">
-      <h4 class="w3-center w3-hide-small" style="font-size:1.7vw;">Contactez-moi pour discuter de vos projets !</h4>
-      <h4 class="w3-center w3-hide-medium w3-hide-large" style="font-size:3vw;">Contactez-moi pour discuter de vos projets !</h4>
+      <h4 class="w3-center w3-hide-small" style="font-size:1.7vw;">Contact me, let's discuss about your projects !</h4>
+      <h4 class="w3-center w3-hide-medium w3-hide-large" style="font-size:3vw;">Contact me, let's discuss about your projects !</h4>
       <a href="mailto:davepb9@hotmail.com" class="w3-button w3-dark-gray w3-large w3-hide-small"><i class="fa fa-envelope"></i> davepb9@hotmail.com</a>
       <a href="mailto:davepb9@hotmail.com" class="w3-button w3-dark-gray w3-medium w3-hide-medium w3-hide-large"><i class="fa fa-envelope"></i> davepb9@hotmail.com</a>
     </div>
@@ -913,8 +977,9 @@
 
 
 <!-- Javascript : Resize areas - Hover img-->
-<script src="js/jquery.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/jquery.rwdImageMaps.min.js"></script>
+<script src="https://widget.sndcdn.com/widget-0-9f8639071487.js"></script>
 <script>$(document).ready(function(e) { $('img[usemap]').rwdImageMaps();});</script>
 <script type="text/javascript">
 
@@ -925,8 +990,8 @@ function newWindow() {
 function swapPic(zone,nr)
 {
   var pic=document.getElementById('hovered')
-  pic.src='images/'+nr+'.png'
-  zone.onmouseout=function(){pic.src='images/studio_background_black.png'}
+  pic.src='images/'+nr+'.jpg'
+  zone.onmouseout=function(){pic.src='images/studio_background_black.jpg'}
 }
 
 $(document).ready(function() {
@@ -936,10 +1001,10 @@ $(document).ready(function() {
         pic4 = new Image();
         pic5 = new Image();
 
-        pic.src="images/1.png";
-        pic2.src="images/2.png";
-        pic3.src="images/3.png";
-        pic4.src="images/4.png";
+        pic.src="images/1.jpg";
+        pic2.src="images/2.jpg";
+        pic3.src="images/3.jpg";
+        pic4.src="images/4.jpg";
         pic5.src="images/4Aboutme.png";
 
 });
@@ -981,7 +1046,7 @@ function onClick(element) {
 
 
   </div>
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Retour en haut</a>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the Top</a>
 <p> David P.Brisson © 2020</p>
 </footer>
 
