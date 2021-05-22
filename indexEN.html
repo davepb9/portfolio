@@ -18,14 +18,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/fontGoogleapis.css">
 <link rel="stylesheet" href="styles/w3.css">
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" as="font">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<style>
   body, h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   body, html {
       height: 100%;
-			height: 100%;
 			margin: 0px;
 			padding: 0px;
 			overflow-x: hidden;
@@ -209,19 +208,19 @@ hdav {
 
       <!-- Right-sided navbar links -->
       <div class="w3-right">
-        <a href="index.html" class="w3-bar-item w3-button w3-light-gray" alt="Français"></i>FR</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-light-gray" title="Français">FR</a>
       </div>
 
       <div class="w3-right">
-        <a href="#contact" class="w3-bar-item w3-button w3-wide w3-hide-small w3-hide-medium"></i>Contact</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-wide w3-hide-small w3-hide-medium">Contact</a>
       </div>
       <div class="w3-right">
-        <a href="#contact" class="w3-bar-item w3-button w3-hide-large"></i>Contact</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-large">Contact</a>
       </div>
 
       <!-- Menus Prof -->
       <div class="w3-right w3-dropdown-hover">
-          <a href="#infos" class="w3-hide-medium w3-hide-small" alt="Lesson"</a>
+          <a href="#infos" class="w3-hide-medium w3-hide-small" title="Lesson"></a>
             <button class="w3-button w3-wide w3-white">Prof <i class="fa fa-caret-down"></i></button>
           <div class="w3-dropdown-content w3-bar-block w3-border">
             <a href="#infos" class="w3-bar-item w3-button">Infos</a>
@@ -230,13 +229,13 @@ hdav {
       </div>
       <!-- Menus Prof NOT WIDE-->
       <div class="w3-right w3-dropdown-hover w3-hide-large w3-hide-small">
-          <a href="#infos" alt="Lesson"</a>
+          <a href="#infos" title="Lesson"></a>
             <button class="w3-button w3-white">Prof <i class="fa fa-caret-down w3-hide-medium"></i></button>
       </div>
 
     <!-- Menus BANDS -->
       <div class="w3-right w3-dropdown-hover w3-hide-medium w3-hide-small">
-          <a href="#brightroad" alt="Bands"</a>
+          <a href="#brightroad" title="Bands"></a>
           <button class="w3-button w3-wide w3-white">Bands <i class="fa fa-caret-down"></i></button>
           <div class="w3-dropdown-content w3-bar-block w3-border">
             <a href="#brightroad" class="w3-bar-item w3-button">THE BRIGHT ROAD</a>
@@ -248,14 +247,14 @@ hdav {
       </div>
     <!-- Menus BANDS NOT WIDE Wide-->
       <div class="w3-right w3-dropdown-hover w3-hide-large w3-hide-small">
-          <a href="#brightroad" alt="Bands"</a>
+          <a href="#brightroad" title="Bands"></a>
           <button class="w3-button w3-white">Bands <i class="fa fa-caret-down w3-hide-medium"></i></button>
       </div>
 
 
       <!-- Menus Music Image -->
       <div class="w3-right w3-dropdown-hover w3-hide-medium w3-hide-small">
-          <a href="#music" alt="Music"</a>
+          <a href="#music" title="Music"></a>
             <button class="w3-button w3-wide w3-white">Music & Image <i class="fa fa-caret-down"></i></button>
           <div class="w3-dropdown-content w3-bar-block w3-border">
             <a href="#music" class="w3-bar-item w3-button">Music</a>
@@ -264,7 +263,7 @@ hdav {
       </div>
       <!-- Menus Music Image NOT WIDE-->
       <div class="w3-right w3-dropdown-hover w3-hide-large w3-hide-small">
-          <a href="#music" alt="Music"</a>
+          <a href="#music" title="Music"></a>
             <button class="w3-button w3-white">Music & Image <i class="fa fa-caret-down w3-hide-medium"></i></button>
       </div>
 
@@ -274,7 +273,7 @@ hdav {
 
 
       <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()" alt="Menu">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()" title="Menu">
         <i class="fa fa-bars"></i>
       </a>
     </div>
@@ -298,25 +297,25 @@ hdav {
  <hdav3 class="w3-hide-large w3-hide-medium">David P.Brisson - Portfolio</hdav3>
 	<map name="studio_background">
     <!-- Screen Left - MUSIC & IMAGE-->
-    <area onmouseover="swapPic(this,1)" shape="poly" coords="231,229,233,100,339,86,443,83,441,222,338,224" href="#music" title="Music & Image" alt="Music & Image, Musique à l'image, Videogames, Jeux Vidéos, Cinema, Movie, OST" class="w3-hover-opacity" >
+    <area onmouseover="swapPic(this,1)" shape="poly" coords="231,229,233,100,339,86,443,83,441,222,338,224" href="#music" title="Music & Image" alt="Music & Image, Videogames, Movie, OST" class="w3-hover-opacity" >
     <!-- Screen Right - BANDS -->
-    <area onmouseover="swapPic(this,2)" shape="poly" coords="561,88,454,83,455,222,555,229,664,240,661,104" href="#brightroad" title="Bands" alt="Bands, Musicians, Groupe de musique">
+    <area onmouseover="swapPic(this,2)" shape="poly" coords="561,88,454,83,455,222,555,229,664,240,661,104" href="#brightroad" title="Bands" alt="Bands, Musician">
 
     <!-- XXXXX Piano - MUSIC ALÉATOIRE pure data sur Hover À VENIR-->
-    <area <area onmouseover="swapPic(this,4)" shape="poly" coords="206,453,58,435,53,415,99,384,410,399,401,462,312,460" onclick="newWindow() " title="Piano">
+    <area onmouseover="swapPic(this,4)" shape="poly" coords="206,453,58,435,53,415,99,384,410,399,401,462,312,460" onclick="newWindow() " title="Piano" alt="Virtual Piano">
 
     <!-- Guitar - PROF -->
-    <area onmouseover="swapPic(this,3)" shape="poly" coords="801,608,807,634,801,664,787,692,787,712,612,712,626,677,639,658,639,637,635,611,626,586,623,561,627,547,633,535,638,527,650,535,665,556,675,567,689,569,695,313,689,295,684,281,709,205,723,200,738,200,749,206,754,220,749,232,740,238,749,290,731,299,725,314,728,599,753,602,782,598" href="#infos" title="Prof">
+    <area onmouseover="swapPic(this,3)" shape="poly" coords="801,608,807,634,801,664,787,692,787,712,612,712,626,677,639,658,639,637,635,611,626,586,623,561,627,547,633,535,638,527,650,535,665,556,675,567,689,569,695,313,689,295,684,281,709,205,723,200,738,200,749,206,754,220,749,232,740,238,749,290,731,299,725,314,728,599,753,602,782,598" href="#infos" title="Prof" alt="Teacher">
     <!-- XXXXX Head - ABOUT ME-->
     <!--<area onmouseover="swapPic(this,4)" shape="poly" coords="429,635,434,674,433,712,294,711,289,664,295,633,310,606,334,588,359,582,383,586,408,597,423,614" href="XXXXXaboutme.html" title="About me">
     -->
    </map>
 
    <div class="w3-xlarge w3-center w3-black">
-     <a href="mailto:davepb9@hotmail.com" class="fa fa-envelope w3-hover-opacity" alt="E-mail davepb9@hotmail.com"></a>
-     <a href="https://www.facebook.com/davidpbrisson" class="fa fa-facebook-official w3-hover-opacity" alt="Open Facebook"></a>
-     <a href="https://www.instagram.com/davidpbris/" class="fa fa-instagram w3-hover-opacity" alt="Open Instagram"></a>
-     <a href="https://www.linkedin.com/in/david-brisson-66000551/" class="fa fa-linkedin w3-hover-opacity" alt="Open Linkedin"></a>
+     <a href="mailto:davepb9@hotmail.com" class="fa fa-envelope w3-hover-opacity" title="E-mail davepb9@hotmail.com"></a>
+     <a href="https://www.facebook.com/davidpbrisson" class="fa fa-facebook-official w3-hover-opacity" title="Open Facebook"></a>
+     <a href="https://www.instagram.com/davidpbris/" class="fa fa-instagram w3-hover-opacity" title="Open Instagram"></a>
+     <a href="https://www.linkedin.com/in/david-brisson-66000551/" class="fa fa-linkedin w3-hover-opacity" title="Open Linkedin"></a>
    </div>
 
 </div>
@@ -497,11 +496,11 @@ hdav {
     <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://thebrightroad.ca" target="_blank" rel="noreferrer">THE BRIGHT ROAD</a></span>
 <br>
 <div class="w3-opacity w3-large">
-    <a href="https://www.facebook.com/thebrightroad" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Facebook"></a>
-    <a href="https://www.instagram.com/thebrightroad/" style="text-decoration: none;" class="fa fa-instagram w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Instagram"></a>
-    <a href="https://twitter.com/tbrmusique/" style="text-decoration: none;" class="fa fa-twitter w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Twitter"></a>
-    <a href="https://thebrightroad.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Bandcamp"></a>
-    <a href="https://www.youtube.com/user/Phil1821/videos" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Youtube"></a>
+    <a href="https://www.facebook.com/thebrightroad" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Facebook"></a>
+    <a href="https://www.instagram.com/thebrightroad/" style="text-decoration: none;" class="fa fa-instagram w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Instagram"></a>
+    <a href="https://twitter.com/tbrmusique/" style="text-decoration: none;" class="fa fa-twitter w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Twitter"></a>
+    <a href="https://thebrightroad.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Bandcamp"></a>
+    <a href="https://www.youtube.com/user/Phil1821/videos" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Youtube"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -555,9 +554,9 @@ hdav {
     <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.facebook.com/neuroneband" target="_blank" rel="noreferrer">NEURONE</a></span>
 <br>
 <div class="w3-text-black w3-opacity w3-large">
-  <a href="https://www.facebook.com/neuroneband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Facebook"></a>
-  <a href="https://neurone.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Bandcamp"></a>
-  <a href="https://www.youtube.com/channel/UCbn6N3JIEkk3LM6J0eJj7uw" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Youtube"></a>
+  <a href="https://www.facebook.com/neuroneband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Facebook"></a>
+  <a href="https://neurone.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Bandcamp"></a>
+  <a href="https://www.youtube.com/channel/UCbn6N3JIEkk3LM6J0eJj7uw" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Youtube"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -606,8 +605,8 @@ hdav {
     <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.cococountryband.com" target="_blank" rel="noreferrer">COCO COUNTRY BAND</a></span>
 <br>
 <div class="w3-opacity w3-large">
-  <a href="https://www.facebook.com/cococountryband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Facebook"></a>
-  <a href="https://www.cococountryband.com" style="text-decoration: none;" class="fa fa-link w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open cococountryband.com"></a>
+  <a href="https://www.facebook.com/cococountryband" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Facebook"></a>
+  <a href="https://www.cococountryband.com" style="text-decoration: none;" class="fa fa-link w3-hover-opacity" target="_blank" rel="noreferrer" title="Open cococountryband.com"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -654,9 +653,9 @@ hdav {
     <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://www.facebook.com/lesbriches" target="_blank" rel="noreferrer">BRICHE</a></span>
 <br>
 <div class="w3-text-black w3-large">
-  <a href="https://www.facebook.com/lesbriches" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Facebook"></a>
-  <a href="https://briche.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Bandcamp"></a>
-  <a href="https://www.youtube.com/channel/UCMewDP9VHqJDNCJWBaPZ7mA" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Youtube"></a>
+  <a href="https://www.facebook.com/lesbriches" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Facebook"></a>
+  <a href="https://briche.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Bandcamp"></a>
+  <a href="https://www.youtube.com/channel/UCMewDP9VHqJDNCJWBaPZ7mA" style="text-decoration: none;" class="fa fa-youtube w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Youtube"></a>
   </div>
 
   <div class="w3-row-padding">
@@ -709,8 +708,8 @@ hdav {
     <span class="w3-xlarge w3-hide-large w3-hide-medium"><a href="https://davidbrisson.bandcamp.com" target="_blank" rel="noreferrer">DAVID BRISSON</a></span>
     <br>
   <div class="w3-text-white w3-large w3-opacity">
-  <a href="https://www.facebook.com/davidbrissonmusique" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Facebook"></a>
-  <a href="https://davidbrisson.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" alt="Open Bandcamp"></a>
+  <a href="https://www.facebook.com/davidbrissonmusique" style="text-decoration: none;" class="fa fa-facebook-official w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Facebook"></a>
+  <a href="https://davidbrisson.bandcamp.com" style="text-decoration: none;" class="fa fa-bandcamp w3-hover-opacity" target="_blank" rel="noreferrer" title="Open Bandcamp"></a>
   </div>
 
 
@@ -737,8 +736,8 @@ hdav {
 <div class="bgimg-7 w3-sepia" style="padding:50px" id="infos">
 
   <div class="w3-center w3-text-black">
-    <span2 class="w3-xxlarge w3-hide-small">PROF</a></span2>
-    <span2 class="w3-xlarge w3-hide-large w3-hide-medium">PROF</a></span2>
+    <span2 class="w3-xxlarge w3-hide-small">PROF</span2>
+    <span2 class="w3-xlarge w3-hide-large w3-hide-medium">PROF</span2>
     <br>
   </div>
 
@@ -898,14 +897,14 @@ hdav {
     </div>
 
       <div class="w3-col w3-hide-small" style="width:60%">
-          <span class="w3-large w3-hide-small">Demo Guitar</a></span>
-          <span class="w3-medium w3-hide-large w3-hide-medium">Demo Guitar</a></span>
+          <span class="w3-large w3-hide-small">Demo Guitar</span>
+          <span class="w3-medium w3-hide-large w3-hide-medium">Demo Guitar</span>
         <iframe title="Démo Guitare" width="100%" height="375" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/233785290%3Fsecret_token%3Ds-uXyKq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
      </div>
 
      <div class="w3-col w3-hide-medium w3-hide-large" style="width:100%">
-       <span class="w3-large w3-hide-small">Demo Guitar</a></span>
-       <span class="w3-medium w3-hide-large w3-hide-medium">Demo Guitar</a></span>
+       <span class="w3-large w3-hide-small">Demo Guitar</span>
+       <span class="w3-medium w3-hide-large w3-hide-medium">Demo Guitar</span>
        <iframe title="Démo Guitare" width="100%" height="375" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/233785290%3Fsecret_token%3Ds-uXyKq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&show_teaser=true"></iframe>
     </div>
 
@@ -923,8 +922,6 @@ hdav {
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
-</div>
-
 </div>
 </div>  <!-- FIN PROF -->
 
@@ -957,7 +954,7 @@ hdav {
     <div class="w3-col w3-half">
     <h4 class="w3-center w3-hide-small" style="font-size:1.7vw;">Montreal, QC, Canada, H1Y3B3</h4>
     <h4 class="w3-center w3-hide-medium w3-hide-large" style="font-size:3vw;">Montreal, QC, Canada, H1Y3B3</h4>
-    <iframe class="w3-image w3-round-large" style="padding:0px 1%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2793.919932415251!2d-73.5959909!3d45.5519362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9194e6165bca1%3A0x7750fc44beff6438!2s1re+Avenue%2C+Montr%C3%A9al%2C+QC!5e0!3m2!1sfr!2sca!4v1542327993070" alt="Location in Montreal Map " width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe class="w3-image w3-round-large" style="padding:0px 1%; border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2793.919932415251!2d-73.5959909!3d45.5519362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9194e6165bca1%3A0x7750fc44beff6438!2s1re+Avenue%2C+Montr%C3%A9al%2C+QC!5e0!3m2!1sfr!2sca!4v1542327993070" width="700" height="400" frameborder="0" allowfullscreen></iframe>
     </div>
 
   </div>
@@ -978,7 +975,7 @@ hdav {
 <script src="js/jquery.rwdImageMaps.min.js"></script>
 <script src="https://widget.sndcdn.com/widget-0-9f8639071487.js"></script>
 <script>$(document).ready(function(e) { $('img[usemap]').rwdImageMaps();});</script>
-<script type="text/javascript">
+<script>
 
 function newWindow() {
   window.open("piano/piano.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=center,width=960,height=340");
@@ -1036,14 +1033,14 @@ function onClick(element) {
 <footer class="w3-center w3-black w3-padding-16">
   <div class="w3-xxlarge w3-section">
 
-    <a href="mailto:davepb9@hotmail.com" class="fa fa-envelope w3-hover-opacity" alt="E-mail davepb9@hotmail.com"></a>
-    <a href="https://www.facebook.com/davidpbrisson" class="fa fa-facebook-official w3-hover-opacity" alt="Open Facebook"></a>
-    <a href="https://www.instagram.com/davidpbris/" class="fa fa-instagram w3-hover-opacity" alt="Open Instagram"></a>
-    <a href="https://www.linkedin.com/in/david-brisson-66000551/" class="fa fa-linkedin w3-hover-opacity" alt="Open Linkedin"></a>
+    <a href="mailto:davepb9@hotmail.com" class="fa fa-envelope w3-hover-opacity" title="E-mail davepb9@hotmail.com"></a>
+    <a href="https://www.facebook.com/davidpbrisson" class="fa fa-facebook-official w3-hover-opacity" title="Open Facebook"></a>
+    <a href="https://www.instagram.com/davidpbris/" class="fa fa-instagram w3-hover-opacity" title="Open Instagram"></a>
+    <a href="https://www.linkedin.com/in/david-brisson-66000551/" class="fa fa-linkedin w3-hover-opacity" title="Open Linkedin"></a>
 
 
   </div>
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right" alt="To the Top"></i>To the Top</a>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right" title="To the Top"></i>To the Top</a>
 <p> David P.Brisson © 2020</p>
 </footer>
 
