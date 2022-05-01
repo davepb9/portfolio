@@ -1237,6 +1237,21 @@ function onClick(element) {
 
 </script>
 
+<!-- Detect language if not french redirect to IndexEN.html-->
+<script type="text/javascript">
+    $( document ).ready(function(){
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang == "fr") {
+            break;
+        }
+        else {
+            window.location.href = "https://www.davidpbrisson.com/indexEN.html"
+        }
+    });
+</script>
+
+
+
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
   <div class="w3-xxlarge w3-section">
