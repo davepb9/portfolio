@@ -111,23 +111,25 @@ hdav {
    }
 
   /* Bands background */
-  .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-	/* IOS fixed / scroll bug correction */
-	    @supports (-webkit-touch-callout: none) {
-	      /* For mobile phones: */
-				.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
-					background-attachment: scroll;
-					background-position: center;
-					background-repeat: no-repeat;
-					background-size: cover;
-	      }
-	    }
+.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+/* Override for Safari 15.4 and below */
+body.safari-lte-15 .bgimg-2,
+body.safari-lte-15 .bgimg-3,
+body.safari-lte-15 .bgimg-4,
+body.safari-lte-15 .bgimg-5,
+body.safari-lte-15 .bgimg-6,
+body.safari-lte-15 .bgimg-7 {
+  background-attachment: scroll; /* Fix the scroll issue for Safari 15.4 and below */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   .bgimg-2 {
       background-image: url("images/IMG_9056.jpg");
       min-height: 100%;
@@ -191,7 +193,29 @@ hdav {
 </head>
 
 <body>
+<!-- Safari Detection if 15.4 and before scroll the background -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    (function() {
+      var ua = navigator.userAgent;
+      var version = -1;
 
+      // Check if the browser is Safari and has the Version
+      if (/Safari/.test(ua) && /Version/.test(ua)) {
+        var match = ua.match(/Version\/(\d+)\.(\d+)/); // Capture major and minor version
+        if (match) {
+          var majorVersion = parseInt(match[1], 10);
+          var minorVersion = parseInt(match[2], 10);
+
+          // If major version is 15, and minor version is 4 or lower, apply the class
+          if (majorVersion <= 15 && minorVersion <= 4) {
+            document.body.classList.add('safari-lte-15');
+          }
+        }
+      }
+    })();
+  });
+</script>
   <!-- Navbar (sit on top) -->
   <div class="w3-top" style="line-height:2">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
