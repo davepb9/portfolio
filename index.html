@@ -130,8 +130,19 @@ body.safari-lte-15 .bgimg-7 {
   background-attachment: scroll; /* Fix the scroll issue for Safari 15.4 and below */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 100vh;
+  background-size: cover;
 }
+	/* IOS fixed / scroll bug correction */
+	    @supports (-webkit-touch-callout: none) {
+	      /* For mobile phones: */
+				.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+					background-attachment: scroll;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: auto 100vh;
+	      }
+	    }
+		
   .bgimg-2 {
       background-image: url("images/IMG_9056.jpg");
       min-height: 100%;
