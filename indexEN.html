@@ -130,6 +130,17 @@ body.safari-lte-15 .bgimg-7 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+	/* IOS fixed / scroll bug correction */
+	    @supports (-webkit-touch-callout: none) {
+	      /* For mobile phones: */
+				.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+					background-attachment: scroll;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: auto 100%;
+	      }
+	    }
+	
   .bgimg-2 {
       background-image: url("images/IMG_9056.jpg");
       min-height: 100%;
@@ -1055,7 +1066,7 @@ body.safari-lte-15 .bgimg-7 {
 
           <div class="w3-col w3-half w3-dark-gray w3-grayscale-min w3-hide-small">
             <h4 class="w3-center" style="font-size:1.4vw;">
-                - Music Enthusiast<br>
+                - Passion at the heart of practice<br>
                 - Experienced Teacher : Since 2002<br>
                 - Univeristy Graduate : Bachelor in interpretation 2012, UQAM<br>
                 - Safe Environnement : Home Studio<br>
@@ -1066,7 +1077,7 @@ body.safari-lte-15 .bgimg-7 {
 
           <div class="w3-col w3-half w3-dark-gray w3-grayscale-min w3-hide-medium w3-hide-large">
             <h4 class="w3-center" style="font-size:2.5vw;">
-							- Music Enthusiast<br>
+							- Passion at the heart of practice<br>
 							- Experienced Teacher : Since 2002<br>
 							- Univeristy Graduate : Bachelor in interpretation 2012, UQAM<br>
 							- Safe Environnement : Home Studio<br>
